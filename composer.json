@@ -22,11 +22,10 @@
         "psr-4": { "Omnipay\\Paycenter\\" : "src/" }
     },
     "require": {
-        "omnipay/common": "~3.0",
-        "phpro/soap-client": "^0.5.3"
+        "omnipay/common": "^3"
     },
     "require-dev": {
-        "omnipay/tests": "~3.0"
+        "omnipay/tests": "^3"
     },
     "extra": {
         "branch-alias": {

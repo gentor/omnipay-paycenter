@@ -39,7 +39,8 @@ class RedirectRequest extends AbstractRequest
         //$data['PosId'] = ;
         //$data['MerchantReference'] = ;
         $data['User'] = $data['Username'];
-        $data['LanguageCode'] = isset($data['LanguageCode'])?$data['LanguageCode']:'el-GR';
+//        $data['LanguageCode'] = isset($data['LanguageCode'])?$data['LanguageCode']:'el-GR';
+        $data['LanguageCode'] = isset($data['LanguageCode'])?$data['LanguageCode']:'en-US';
         $data['ParamBackLink'] = $data['Parameters'];
 
         return $this->response = new RedirectResponse($this, $data);
