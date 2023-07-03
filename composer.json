@@ -16,6 +16,10 @@
         {
             "name": "Konstantinos Alexiou",
             "email": "konalexiou@gmail.com"
+        },
+        {
+            "name": "Evgeni Nurkov",
+            "email": "evgeni.nurkov@gmail.com"
         }
     ],
     "autoload": {

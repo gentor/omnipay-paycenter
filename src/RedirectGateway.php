@@ -110,4 +110,12 @@ class RedirectGateway extends AbstractGateway
         return $this->createRequest('\Omnipay\Paycenter\Message\RedirectRequest', $parameters);
     }
 
+    /**
+     * @param array $parameters
+     * @return \Omnipay\Paycenter\Message\CompletePurchaseRequest
+     */
+    public function completePurchase(array $parameters = array())
+    {
+        return $this->createRequest('\Omnipay\Paycenter\Message\CompletePurchaseRequest', $parameters);
+    }
 }
